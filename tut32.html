@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>attribute and phsudeo selector</title>
+    <style>
+        body {
+            display: block;
+            width: 23px;
+            margin: auto;
+        }
+
+        input[type='text'] {
+            border: 2px solid chartreuse;
+        }
+
+        li:nth-child(2) {
+            color: crimson;
+        }
+
+        li:nth-child(even) {
+            color: darkviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="http://www.google.com" target="_blank">go to google</a>
+    <form action="noaction.php">
+        Enter your name: <input type="text" name="enter your name" placeholder="enter your name">
+        <button type="submit">Submit now</button>
+    </form>
+    <ul>
+        <li class="1">home</li>
+        <li class="2">house</li>
+        <li class="3">about</li>
+        <li>email</li>
+    </ul>
+</body>
+
+</html>

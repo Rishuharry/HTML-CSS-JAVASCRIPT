@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css grids</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 100px 200px;
+            grid-gap: 3rem;
+            grid-column-start: 3;
+            grid-column-end: 5;
+        }
+
+        .box {
+            border: 2px solid grey;
+            background-color: lawngreen;
+            padding: 34px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="conatiner">
+        <div class="box">this is my box1</div>
+        <div class="box">this is my box2</div>
+        <div class="box">this is my box3</div>
+        <div class="box">this is my box4</div>
+        <div class="box">this is my box5</div>
+        <div class="box">this is my box6</div>
+        <div class="box">this is my box7</div>
+    </div>
+</body>
+
+</html>

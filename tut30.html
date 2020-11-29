@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css media query</title>
+    <style>
+        div {
+            display: none;
+            margin: 20px auto;
+            background-color: red;
+            border: 2px solid green;
+            height: 100px;
+            width: 200px;
+            text-align: center;
+        }
+       @media (max-width: 300px) {
+           #box1{display: block;
+           background-color: darkviolet;}
+       }
+       @media(max-width: 800px) and (min-width: 300px) {
+       #box2{display: block;
+       background-color: darkblue;}
+       }
+       @media(max-width: 1200px) and (min-width: 800px) {
+       #box3{display: block;
+       background-color: greenyellow;
+       color: black;}
+       }
+       @media(max-width: 1600px) and (min-width: 1200px) {
+       #box4{display: block;
+       background-color: peru;}
+       }
+    </style>
+</head>
+
+<body>
+    <!-- <div class="id" id="$box1"></div> -->
+    <div id="box1">i am a computer</div>
+    <div id="box2">i am a laptop</div>
+    <div id="box3">i am a iphone</div>
+    <div id="box4">i am a android</div>
+</body>
+
+</html>

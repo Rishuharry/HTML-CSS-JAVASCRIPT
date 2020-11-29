@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css tronsform</title>
+    <style>
+        * {
+            background-color: lime;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #id {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            border: 2px solid rgb(56, 17, 226);
+            background-color: indigo;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+            width: 200px;
+
+        }
+
+        .box:hover {
+            transition: all 1s ease-in;
+            transform: rotate(45deg);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="c">
+        <div class="box">this is my box</div>
+    </div>
+</body>
+
+</html>

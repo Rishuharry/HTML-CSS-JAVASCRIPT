@@ -1,0 +1,10 @@
+console.time();
+console.log('hello world, my name is rishu verma and i have started this course on 29/09/2020/ 1:47 date and time.');
+console.warn('this is a warning');
+console.clear();
+console.table({name:'rishu',class:10});
+console.log([232,43]);
+console.timeEnd();
+console.log(23 + 24);
+console.assert(23>20,'this is not defined');
+console.error('this is a error');
